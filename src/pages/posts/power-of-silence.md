@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: The Power of Silence: Embracing Stillness in a Busy World
+title: The Power of Silence
+subtitle: Embracing Stillness in a Busy World
 date: 2023-01-13
 author: David Nguyen
 description: Discover the benefits of embracing silence and stillness through Zen meditation, even amidst a hectic lifestyle.
-category: PowerOfSilence
+categories: ['silence']
 ---
 
 Ullamcorper a lacus vestibulum sed arcu. Cras tincidunt lobortis feugiat vivamus at. Diam donec adipiscing tristique risus nec feugiat. Et pharetra pharetra massa massa ultricies. Senectus et netus et malesuada fames ac turpis egestas sed. Donec et odio pellentesque diam volutpat commodo sed egestas. Suscipit adipiscing bibendum est ultricies integer. 

@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: The Role of Compassion in Zen Practice
+subtitle:
 date: 2023-01-06
 author: Alexandra Chen
 description: Explore the importance of compassion in Zen practice and how it can enhance your meditation and daily interactions.
-category: Compassion
+categories: ['compassion']
 ---
 
 Gravida cum sociis natoque penatibus et. Amet aliquam id diam maecenas ultricies mi eget mauris pharetra. At risus viverra adipiscing at in. Consectetur adipiscing elit ut aliquam purus sit amet. Non consectetur a erat nam. Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc. Orci eu lobortis elementum nibh. 

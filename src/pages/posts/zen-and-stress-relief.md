@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: Zen and Stress Relief: How Meditation Can Help You Cope
+title: Zen and Stress Relief
+subtitle: How Meditation Can Help You Cope
 date: 2022-12-30
 author: Benjamin Foster
 description: Learn how Zen meditation can be a powerful tool for managing stress and finding inner calm in your daily life.
-category: StressRelief
+categories: ['stress']
 ---
 
 Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Aliquet risus feugiat in ante metus dictum at. Sed velit dignissim sodales ut. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Mattis enim ut tellus elementum sagittis vitae et leo duis. Vitae congue eu consequat ac felis donec et odio pellentesque.

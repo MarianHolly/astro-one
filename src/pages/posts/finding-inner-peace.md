@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: Finding Inner Peace: A Beginner’s Guide to Zen Meditation
+title: Finding Inner Peace
+subtitle: A Beginner’s Guide to Zen Meditation
 date: 2022-11-25
 author: Emily Thompson
 description: Discover the fundamentals of Zen meditation and learn how to find inner peace through simple, effective practices tailored for beginners.
-category: BeginnerMeditation
+categories: ["beginner", "meditation"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer quis auctor elit sed. Sed velit dignissim sodales ut eu sem. Amet dictum sit amet justo donec enim. Risus nec feugiat in fermentum. Lacus laoreet non curabitur gravida arcu. Quam pellentesque nec nam aliquam sem et tortor consequat.

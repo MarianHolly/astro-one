@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: Overcoming Common Challenges in Meditation Practice
+subtitle: 
 date: 2022-12-23
 author: Jessica Martinez
 description: Address common obstacles faced during meditation and discover practical tips to overcome them for a more effective practice.
-category: MeditationChallenges
+categories: ['meditation', 'challenges']
 ---
 
 Vitae auctor eu augue ut. Curabitur gravida arcu ac tortor dignissim. Faucibus turpis in eu mi bibendum neque egestas. Proin libero nunc consequat interdum varius sit amet mattis vulputate. Duis at tellus at urna. Blandit cursus risus at ultrices mi.

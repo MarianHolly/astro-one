@@ -1,9 +1,11 @@
 ---
-title: Creating a Home Meditation Space: Tips for a Serene Sanctuary
+layout: ../../layouts/PostLayout.astro
+title: Creating a Home Meditation Space
+subtitle: Tips for a Serene Sanctuary
 date: 2022-12-09
 author: Sarah Kim
 description: Learn how to transform a corner of your home into a peaceful meditation space that fosters calm and concentration.
-category: HomeMeditation
+categories: ['meditation', 'guide', 'daily dife']
 ---
 
 Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Lobortis elementum nibh tellus molestie. Sit amet venenatis urna cursus. Amet massa vitae tortor condimentum lacinia quis vel eros. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. 

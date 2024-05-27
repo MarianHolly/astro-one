@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: The Art of Mindful Breathing: Techniques to Enhance Your Practice
+title: The Art of Mindful Breathing
+subtitle: Techniques to Enhance Your Practice
 date: 2022-12-02
 author: Daniel Reed
 description: Explore various mindful breathing techniques that can deepen your meditation practice and promote relaxation and focus.
-category: MindfulBreathing
+categories: ['breathing', 'health']
 ---
 
 Sed felis eget velit aliquet. Non sodales neque sodales ut etiam sit amet. Semper auctor neque vitae tempus quam. Vestibulum morbi blandit cursus risus at ultrices mi. Pellentesque nec nam aliquam sem et. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Vitae elementum curabitur vitae nunc. Eu volutpat odio facilisis mauris sit amet. 

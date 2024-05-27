@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: The Benefits of Daily Meditation: Why Consistency Matters
+title: The Benefits of Daily Meditation
+subtitle: Why Consistency Matters
 date: 2022-12-16
 author: Michael Lee
 description: Understand the numerous benefits of maintaining a consistent daily meditation practice and how it can positively impact your overall well-being.
-category: DailyMeditation
+categories: ['meditation', 'health']
 ---
 
 Diam donec adipiscing tristique risus nec feugiat. Tincidunt eget nullam non nisi est. Viverra justo nec ultrices dui sapien eget. Laoreet sit amet cursus sit amet dictum sit amet. Fringilla est ullamcorper eget nulla facilisi etiam. Nunc sed id semper risus in.
