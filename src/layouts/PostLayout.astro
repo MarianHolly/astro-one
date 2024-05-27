@@ -3,13 +3,15 @@ import PostContent from "../components/PostContent.astro";
 import PostHeader from "../components/PostHeader.astro";
 import Layout from "./Layout.astro";
 
-let title = "Title";
-let author = "Author";
+const { frontmatter } = Astro.props;
 ---
 
 <Layout head={{ title: "Post" }}>
   <div class="mx-auto w-full max-w-screen-md">
-    <PostHeader {title} {author} />
+    <PostHeader 
+      title={frontmatter.title} 
+      author={frontmatter.author} 
+      categories={frontmatter.categories} />
     <PostContent>
       <slot />
     </PostContent>

@@ -2,16 +2,26 @@
 import Section from "./Section.astro";
 
 interface Props {
-  title: string; 
-  author: string
+  title: string;
+  subtitle?: string;
+  author: string;
+  categories: string[];
 }
 
-const { title, author } = Astro.props;
+const { title, subtitle, author, categories } = Astro.props;
 ---
 
 <Section>
   <div class="flex flex-col items-center">
-    <p>{title}</p>
-    <p>{author}</p>
+    <p class="text-2xl font-semibold">{title}</p>
+    <p class="text-md font-extralight mt-2">written by <span class="font-medium">{author}</span></p>
+    <div class="mt-3 flex flex-wrap">
+      {
+        categories?.map((cat: string) => {
+          const element = <span>#{cat}</span>;
+          return <a class="ml-2 capitalize" href={`/categories/${cat}`}>{element}</a>;
+        })
+      }
+    </div>
   </div>
 </Section>
