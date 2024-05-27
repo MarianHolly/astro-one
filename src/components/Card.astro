@@ -1,0 +1,21 @@
+---
+interface Props {
+  post: any;
+}
+
+const { post } = Astro.props;
+---
+
+<a href={post.url}>
+  <div
+    class="h-full rounded-md bg-slate-200/35 from-lime-800 via-amber-800 to-yellow-50 p-[1px] text-sm shadow-md"
+  >
+    <div class="flex h-full w-full flex-col rounded-md bg-slate-300 p-4 text-slate-950 opacity-30">
+      <div class="flex-auto">
+        <div class="flex justify-between pb-4 text-xs">
+          <p class="pb-4 text-lg font-bold">{post.title}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>

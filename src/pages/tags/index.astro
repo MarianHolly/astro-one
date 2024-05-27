@@ -1,0 +1,15 @@
+---
+import Section from "../../components/Section.astro";
+import Heading from "../../components/Heading.astro";
+import Layout from "../../layouts/Layout.astro";
+import { SiteConfig } from "../../utils/config";
+
+const { title, description } = SiteConfig
+
+---
+<Layout head={{ title, description }}>
+	<Section><Heading title="Tags" /></Section>
+    <Section>
+        <h2 class="text-center text-2xl font-extralight">Tags of Posts</h2>
+    </Section>
+</Layout>

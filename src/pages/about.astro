@@ -1,0 +1,35 @@
+---
+import Heading from "../components/Heading.astro";
+import Section from "../components/Section.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout head={{ title: "About Us" }}>
+  <Section><Heading title="Interested in knowing about us?" /></Section>
+  <Section>
+    <div class="flex flex-col lg:flex-row gap-2 justify-center items-center">
+      <img src="/public/image-1.jpeg" alt="about-us" width="400" height="300" class="rounded-md" />
+      <div class="m-4">
+        <h2 class="text-lg font-semibold mb-2 text-center">
+          Welcome to Serenity Zen Meditation Studio
+        </h2>
+        <p class="text-base">
+          At Serenity Zen Meditation Studio, we believe in the transformative power of mindfulness
+          and meditation. Our mission is to create a peaceful sanctuary where individuals from all
+          walks of life can come to experience inner peace, clarity, and balance.
+        </p>
+      </div>
+    </div>
+
+    <div class="m-4">
+      <h2 class="text-lg font-semibold mb-2 text-center">Our Philosophy</h2>
+      <p class="text-base">
+        Rooted in the ancient traditions of Zen Buddhism, our practice focuses on simplicity,
+        presence, and deep introspection. We aim to provide a space where you can disconnect from
+        the chaos of daily life and reconnect with your true self. Through guided meditations,
+        mindful breathing, and gentle movement, we help you cultivate a sense of calm and awareness
+        that extends beyond our studio walls.
+      </p>
+    </div>
+  </Section>
+</Layout>

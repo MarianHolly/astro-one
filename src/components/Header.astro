@@ -1,4 +1,5 @@
 ---
+import { navigation } from "../utils/config";
 import Section from "./Section.astro";
 ---
 
@@ -12,8 +13,13 @@ import Section from "./Section.astro";
     <div class="flex items-center">
       <nav>
         <ul class="hidden flex-row sm:flex gap-x-3">
-            <li><a href="/" class="hover:text-rose-700">Blog</a></li>
-            <li><a href="/tags" class="hover:text-rose-700">tags</a></li>
+          {
+            navigation.map((item) => (
+              <li>
+                <a href={item.path}>{item.title}</a>
+              </li>
+            ))
+          }
         </ul>
       </nav>
     </div>

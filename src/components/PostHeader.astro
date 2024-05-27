@@ -1,0 +1,17 @@
+---
+import Section from "./Section.astro";
+
+interface Props {
+  title: string; 
+  author: string
+}
+
+const { title, author } = Astro.props;
+---
+
+<Section>
+  <div class="flex flex-col items-center">
+    <p>{title}</p>
+    <p>{author}</p>
+  </div>
+</Section>

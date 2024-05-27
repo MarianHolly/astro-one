@@ -1,0 +1,17 @@
+---
+import PostContent from "../components/PostContent.astro";
+import PostHeader from "../components/PostHeader.astro";
+import Layout from "./Layout.astro";
+
+let title = "Title";
+let author = "Author";
+---
+
+<Layout head={{ title: "Post" }}>
+  <div class="mx-auto w-full max-w-screen-md">
+    <PostHeader {title} {author} />
+    <PostContent>
+      <slot />
+    </PostContent>
+  </div>
+</Layout>
