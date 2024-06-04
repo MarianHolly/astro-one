@@ -13,7 +13,7 @@ const { post } = Astro.props;
     <div class="flex h-full w-full flex-col rounded-md bg-slate-300 p-4 text-slate-950 opacity-30">
       <div class="flex-auto">
         <div class="flex justify-between pb-4 text-xs">
-          <p class="pb-4 text-lg font-bold">{post.title}</p>
+          <p class="pb-4 text-lg font-bold">{post.frontmatter.title}</p>
         </div>
       </div>
     </div>

@@ -6,6 +6,11 @@ date: 2022-12-16
 author: Michael Lee
 description: Understand the numerous benefits of maintaining a consistent daily meditation practice and how it can positively impact your overall well-being.
 categories: ['meditation', 'health']
+draft: false
+image: {
+  src: "/image-1.jpeg",
+  alt: "A picture of a coder",
+}
 ---
 
 Diam donec adipiscing tristique risus nec feugiat. Tincidunt eget nullam non nisi est. Viverra justo nec ultrices dui sapien eget. Laoreet sit amet cursus sit amet dictum sit amet. Fringilla est ullamcorper eget nulla facilisi etiam. Nunc sed id semper risus in.

@@ -1,47 +1,21 @@
-# Astro Starter Kit: Minimal
+## Astro Framework
 
-```sh
-npm create astro@latest -- --template minimal
-```
+### Purpose of Astro Framework
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+**Static Site Generation (SSG)**: Astro is primarily built to generate static sites. This means it pre-renders all pages into static HTML, making the final site highly performant and SEO-friendly.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+**Component-Based Development**: Astro supports a component-based architecture, allowing developers to create reusable and maintainable UI components. It’s designed to work with popular JavaScript frameworks and libraries like React, Vue, Svelte, and others.
 
-## 🚀 Project Structure
+**Optimized Performance**: One of Astro's main goals is to deliver high-performance websites. It minimizes the amount of JavaScript sent to the browser by default, ensuring faster load times and better user experience.
 
-Inside of your Astro project, you'll see the following folders and files:
+### Learning Topics 
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Understand the default file and folder structure of an Astro project.
+- Understand how to create pages and use templates / layouts.
+- How to create and use components in Astro.
+- Learn about Astro’s routing mechanism for navigating between pages.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Use Markdown for content creation.
+- Use CSS, SASS, and other preprocessors in Astro.
+- Fetch data from APIs and other sources to populate your site.
+- Integrate dynamic content into your static pages.
