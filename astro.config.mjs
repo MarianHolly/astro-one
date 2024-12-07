@@ -1,5 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+import mdx from '@astrojs/mdx';
+import react from '@astrojs/react';
+import tailwind from '@astrojs/tailwind';
+
+export default defineConfig({
+  integrations: [mdx(), react(), tailwind()]
+});

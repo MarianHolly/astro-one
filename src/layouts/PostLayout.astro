@@ -1,0 +1,19 @@
+---
+import Layout from './Layout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+---
+
+<Layout title={`${post.data.title} | Astro Blog`} description={post.data.excerpt}>
+    <article class="prose lg:prose-xl dark:prose-invert mx-auto">
+    <h1>{post.data.title}</h1>
+    <p class="text-muted-foreground">{post.data.date.toDateString()}</p>
+    <slot />
+  </article>
+</Layout>
+

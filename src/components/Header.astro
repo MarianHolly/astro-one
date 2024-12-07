@@ -1,0 +1,25 @@
+---
+const navItems = [
+  { href: '/', text: 'Home' },
+  { href: '/about', text: 'About' },
+  { href: '/contact', text: 'Contact' },
+  { href: '/blog', text: 'Blog' },
+];
+---
+
+<header class="bg-background shadow">
+  <nav class="container mx-auto px-6 py-3">
+    <div class="flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold text-primary">Astro Blog</a>
+      <ul class="flex space-x-4">
+        {navItems.map((item) => (
+          <li>
+            <a href={item.href} class="text-foreground hover:text-primary transition-colors">
+              {item.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </nav>
+</header>
